@@ -1,0 +1,6 @@
+---
+deployment:
+    tasks:
+        - export DEPLOYPATH=/home/sidhzydj/sidhakhetse_backend/
+        # - /bin/rm -rf $DEPLOYPATH/*
+        - /bin/cp -R /* $DEPLOYPATH
